@@ -5,6 +5,30 @@
 Course materials are distributed through this repository. Pull regularly — lectures
 and labs are pushed as the semester progresses.
 
+## Updated files
+
+**November 16:** `Lectures/Lecture.20/Lecture.20.ipynb`, `Lectures/Lecture.21/Lecture.21.ipynb`,
+`Lectures/Lecture.22/Lecture.22.ipynb`, `Lectures/Lecture.22/dataloader.py` and
+`Lectures/Lecture.23/Lecture.23.ipynb`: comments and explanations were tidied up; no code changed. If you
+have run or edited your copy of any of them, set it aside before you pull, as below.
+
+**November 9:** `Lectures/Lecture.20/Lecture.20.ipynb` again: a stray Jupyter error message stored in one
+cell's output (the top-correlations cell) was removed; nothing else changed. If you have run or edited
+your copy, set it aside before you pull, as below.
+
+**October 28:** `Lectures/Lecture.20/Lecture.20.ipynb`, `Lectures/Lecture.21/Lecture.21.ipynb` and
+`Kaggle Tabular Data.ipynb` were updated with more explanation (no code changed). If you have run or
+edited your own copy of any of them, set it aside **before** you pull, or `git pull` will refuse or
+conflict, and a conflicted notebook won't open in Jupyter:
+
+```bash
+mv Lectures/Lecture.20/Lecture.20.ipynb Lectures/Lecture.20/Lecture.20.mine.ipynb   # same for the others
+git checkout -- Lectures/Lecture.20/Lecture.20.ipynb     # only if git still sees it as modified
+git pull
+```
+
+If you never touched them, just `git pull`.
+
 ## Contents
 
 | Path | What's there |
